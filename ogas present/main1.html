@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main1.css">
+    <title>OGA HBD</title>
+</head>
+<body>
+       
+
+    <div id="birthday-cake">
+        <div class="cake">
+          <div class="middle"></div>
+          <div class="chocs"></div>
+          <div class="top"></div>
+        </div>
+        <div class="candles">
+          <div class="flame"></div>
+          <div class="flame2"></div>
+          <div class="flame3"></div>
+          <div class="text">Sweet 19 Oga!</div>
+          <div class="shadows"></div>
+        </div>
+        
+    
+        <p class="text2">*click on the flame to blow candles, DON'T FOTGET TO MAKE A WISH
+            (click on the gift to see your present, but first blow out the candles)</p>
+        
+    </div>
+    <div class="img-container img">
+    <img src="images/Ribbon-DRAWING-_-STEP-10-removebg-preview.png"></div>
+    <a href="main2.html">
+    <div class="img-container1 img">
+    <img src="images/birthday-gift-box-cartoon-pink-television-greeting-note-cards-birthday-line-png-clipart-removebg-preview.png" >
+    </a>
+   
+
+    <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- JavaScript code using jQuery -->
+    <script>
+        $(document).ready(function() {
+            $(".candles").click(function() {
+                $(".flame").animate({"opacity": 0}, "fast");
+                $(".flame2").animate({"opacity": 0}, "fast");
+                $(".flame3").animate({"opacity": 0}, "fast");
+                $(".text").animate({"top": -90, "opacity": 1}, "fast");
+            });
+        });
+    </script>
+</body>
+</html>

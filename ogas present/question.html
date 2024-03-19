@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Question</title>
+  <link rel="stylesheet" href="question.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quick question before your present</h1>
+    <p>Do you still blow out the candles on your birthday cake and make a secret wish?</p>
+    <div class="buttons">
+      <button onclick="goToNextPage()">Yes</button>
+      <button onclick="youLying()">No</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<script>
+function goToNextPage() {
+    window.location.href = "main1.html";
+  }
+  
+  function youLying() {
+    alert("I know that YOU ARE LYING! Try Again");
+  }
+</script>  
+</html>
+

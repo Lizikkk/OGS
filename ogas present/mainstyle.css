@@ -1,0 +1,30 @@
+*{
+   margin-block-start: 25px;
+}
+h1{
+    text-align: center;
+    color:rgb(121, 0, 40) ;
+    margin-block-start: 0px;
+    padding-top: 0px;
+    display: block;
+    font-size: 40px;
+
+}
+h2{
+    text-align: center;
+    color:rgba(236, 8, 46, 0.815) ;
+    margin-top: 10px;
+}
+
+
+.img-container { 
+    height: 350px; /* Set the height of the container */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  .img-container img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    max-height: 100%; /* Ensure the image does not exceed its container's height */
+  }
+  

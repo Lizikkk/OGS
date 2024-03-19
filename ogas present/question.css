@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url(images/background.avif);
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffa8e5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(151, 0, 50);
+}
+
+p {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color:rgb(199, 29, 58);
+}
+
+button:hover {
+  background-color: pink;
+}
+
+/* Add this CSS to the existing styles.css */
+
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    font-size: 30px;
+    color:red;
+  }
+  
+  .alert p {
+    text-align: center;
+    margin: 0;
+    font-size:35 px;
+    
+  }
+  
+  .alert button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a01a2c71;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .alert button:hover {
+    background-color: #c01c1c;
+  }
+  
